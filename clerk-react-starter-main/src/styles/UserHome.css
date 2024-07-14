@@ -1,0 +1,50 @@
+.user-home-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .books-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .user-books-section {
+    margin-top: 40px;
+  }
+  
+  .user-books-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .user-book {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .user-book h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007BFF;
+  }
+  
+  .user-book p {
+    margin: 5px 0;
+    color: #555;
+    text-align: center;
+  }
+  

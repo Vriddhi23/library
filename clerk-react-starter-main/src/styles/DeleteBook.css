@@ -1,0 +1,64 @@
+/* deleteBookStyles.css */
+
+.delete-book-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .delete-book-header {
+    margin-bottom: 20px;
+  }
+  
+  .delete-book-header h2 {
+    margin-bottom: 8px;
+  }
+  
+  .delete-book-form {
+    margin-bottom: 20px;
+  }
+  
+  .delete-book-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .delete-book-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .delete-book-form button {
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-book-form button:hover {
+    background-color: #c82333;
+  }
+  
+  .delete-book-status {
+    margin-top: 20px;
+  }
+  
+  .delete-book-status p {
+    margin: 8px 0;
+  }
+  
+  .delete-book-status .success-message {
+    color: green;
+  }
+  
+  .delete-book-status .error-message {
+    color: red;
+  }
